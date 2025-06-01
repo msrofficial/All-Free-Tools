@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Free Tools - Free AI Tools Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>All Free Tools</h1>
+            <p class="tagline">Discover the best free tools for all your needs - from image editing to coding assistance and beyond.</p>
+            
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="search" placeholder="Search for tools...">
+            </div>
+            
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="image">Image</button>
+                <button class="category-btn" data-category="audio">Audio</button>
+                <button class="category-btn" data-category="video">Video</button>
+                <button class="category-btn" data-category="chat">Chat</button>
+                <button class="category-btn" data-category="coding">Coding</button>
+                <button class="category-btn" data-category="writing">Writing</button>
+                <button class="category-btn" data-category="productivity">Productivity</button>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <div class="container">
+            <h2 class="section-title">Featured Tools</h2>
+            
+            <div class="tools-grid">
+                <!-- Background Remover -->
+                <div class="tool-card" data-categories="image">
+                    <div class="tool-card-header">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <span class="tool-category">Image</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">Remove.bg</h3>
+                        <p class="tool-description">Remove image backgrounds automatically with AI. 100% free for low-resolution images.</p>
+                        <a href="https://www.remove.bg/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 95%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Instant</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Music Maker -->
+                <div class="tool-card" data-categories="audio">
+                    <div class="tool-card-header">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <span class="tool-category">Audio</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">Soundraw</h3>
+                        <p class="tool-description">Create your own royalty-free music with AI. Perfect for videos, streams, and more.</p>
+                        <a href="https://soundraw.io/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 88%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> 1-2 min</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chat AI -->
+                <div class="tool-card" data-categories="chat">
+                    <div class="tool-card-header">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <span class="tool-category">Chat</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">DeepSeek Chat</h3>
+                        <p class="tool-description">Advanced AI chatbot with 128K context length. Free to use with powerful capabilities.</p>
+                        <a href="https://chat.deepseek.com/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 97%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Instant</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Coding AI -->
+                <div class="tool-card" data-categories="coding">
+                    <div class="tool-card-header">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span class="tool-category">Coding</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">Blackbox AI</h3>
+                        <p class="tool-description">AI coding assistant that helps you write better code faster. Supports 20+ programming languages.</p>
+                        <a href="https://www.useblackbox.io/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 92%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Instant</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web/App</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Editor -->
+                <div class="tool-card" data-categories="video">
+                    <div class="tool-card-header">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <span class="tool-category">Video</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">CapCut</h3>
+                        <p class="tool-description">Free online video editor with AI-powered features like auto-captioning and effects.</p>
+                        <a href="https://www.capcut.com/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 90%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Varies</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web/App</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Writing Assistant -->
+                <div class="tool-card" data-categories="writing">
+                    <div class="tool-card-header">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <span class="tool-category">Writing</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">DeepSeek Writer</h3>
+                        <p class="tool-description">AI writing assistant that helps you create high-quality content for blogs, emails, and more.</p>
+                        <a href="https://writer.deepseek.com/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 94%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Instant</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Image Generator -->
+                <div class="tool-card" data-categories="image">
+                    <div class="tool-card-header">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <span class="tool-category">Image</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">Leonardo.AI</h3>
+                        <p class="tool-description">Generate stunning AI art and images with this free-to-use platform.</p>
+                        <a href="https://leonardo.ai/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 89%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> 10-30 sec</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Productivity -->
+                <div class="tool-card" data-categories="productivity">
+                    <div class="tool-card-header">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <span class="tool-category">Productivity</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">Notion AI</h3>
+                        <p class="tool-description">AI-powered workspace that helps you write, organize, and get more done.</p>
+                        <a href="https://www.notion.so/product/ai" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 93%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Instant</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web/App</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Voice Cloning -->
+                <div class="tool-card" data-categories="audio">
+                    <div class="tool-card-header">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <span class="tool-category">Audio</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">ElevenLabs</h3>
+                        <p class="tool-description">AI voice generator and text-to-speech software with realistic voices.</p>
+                        <a href="https://elevenlabs.io/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 91%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Instant</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PDF AI -->
+                <div class="tool-card" data-categories="productivity">
+                    <div class="tool-card-header">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <span class="tool-category">Productivity</span>
+                    <div class="tool-card-body">
+                        <h3 class="tool-title">ChatPDF</h3>
+                        <p class="tool-description">Chat with any PDF document using AI. Get summaries and answers instantly.</p>
+                        <a href="https://www.chatpdf.com/" class="tool-link" target="_blank">Visit Tool</a>
+                        <div class="tool-stats">
+                            <span class="stat"><i class="fas fa-thumbs-up"></i> 87%</span>
+                            <span class="stat"><i class="fas fa-clock"></i> Instant</span>
+                            <span class="stat"><i class="fas fa-globe"></i> Web</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">All Free Tools</div>
+                <p class="footer-description">Our mission is to make powerful tools accessible to everyone by curating the best free resources available online.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+                
+                <p class="copyright">© 2023 All Free Tools. All tools listed are property of their respective owners.</p>
+            </div>
+        </div>
+    </footer>
 
+    <script src="script.js"></script>
+</body>
+</html> 
